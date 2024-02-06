@@ -1,6 +1,9 @@
-<div id="header" align="center">
-<h1>B Reference Manual</h1>
-</div>
+<center>
+<blockquote>
+<h1>ace Reference Manual</h1>
+<p></p>
+</blockquote>
+</center>
 
 ## Index
 
@@ -17,29 +20,29 @@
 
 ---
 
-This is the official reference manual for the B programming language as
-implemented by its own creator, Luca Mazza, on `BComp`.
+This is the official reference manual for the ace programming language as
+implemented by its own creator, Luca Mazza, on `ace`.
 
-This manual documents the 2024 version, known as `B24`
+This manual documents the 2024 version, known as `ace-24`
 
 ### Credits
-The B programming language is heavily inspired by the C programming language.
+The ace programming language is heavily inspired by the C programming language.
 Please visit the [official reference](https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html)
 to [GNU C](https://gcc.gnu.org).
 
-The code for the official compiler `BComp` and the following reference are 
+The code for the official compiler `acec` and the following reference are 
 written and come from the idea of [Luca Mazza](https://github.com/lucamazzza) 
-as [B](https://github.com/BProgrammingLanguage).
+as [ace](https://github.com/BProgrammingLanguage).
 
 # Lexical Elements
 
 ---
 
 This chapter describes the lexical elements that 
-compose the B language and the relative source code after preprocessing.
+compose the ace language and the relative source code after preprocessing.
 The elements composing a program are called *tokens*.
 
-We find 5 different types of tokens in B;
+We find 5 different types of tokens in ace;
 * [Identifiers](#Identifiers)
 * [Keywords](#Keywords)
 * [Constants](#Constants)
@@ -57,21 +60,19 @@ and these are case-sensitive; defining a variable identified by the sequence
 `some` is distinct to the one defined as `Some` or the constant named `SOME`.
 
 ## Keywords
-Keywords are reserved identifiers, that are used as part of the language itsself.
+Keywords are reserved identifiers, that are used as part of the language itself.
 Their use for any other purpose is strictly prohibited and compile-wise not possible.
 
-Here is a list of keywords recognised by `B24`:
+Here is a list of keywords recognised by `ace-24`:
 
-> [!CAUTION]
-> Negative potential consequences of an action.
-
-```b
+```ace
 auto break case char const continue default do double else enum extern
 float for goto if int long register return short signed sizeof static
 struct switch typedef union unsigned void volatile while
 ```
 
 ## Constants
+
 
 ## Operators
 
