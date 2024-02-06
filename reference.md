@@ -1,25 +1,19 @@
-<center>
-<blockquote>
+<div id="header" align="center">
 <h1>ace Reference Manual</h1>
-<p></p>
-</blockquote>
-</center>
+</div>
 
 ## Index
 
-* [Preface](#Preface)
-* [Lexical Elements](#Lexical-Elements)
-* [Datatypes](#Datatypes)
-* [Expressions & Operators](#Expressions-and-Operators)
-* [Statements](#Statements)
-* [Subroutines](#Subroutines)
-* [Structure and Scope](#Structure-and-Scope)
-* [Overflow](#Overflow)
+* [Preface](Preface)
+* [Lexical Elements](Lexical-Elements)
+* [Datatypes](Datatypes)
+* [Expressions & Operators](Expressions-and-Operators)
+* [Statements](Statements)
+* [Subroutines](Subroutines)
+* [Structure and Scope](Structure-and-Scope)
+* [Overflow](Overflow)
 
 # Preface
-
----
-
 This is the official reference manual for the ace programming language as
 implemented by its own creator, Luca Mazza, on `ace`.
 
@@ -35,20 +29,17 @@ written and come from the idea of [Luca Mazza](https://github.com/lucamazzza)
 as [ace](https://github.com/BProgrammingLanguage).
 
 # Lexical Elements
-
----
-
 This chapter describes the lexical elements that 
 compose the ace language and the relative source code after preprocessing.
 The elements composing a program are called *tokens*.
 
 We find 5 different types of tokens in ace;
-* [Identifiers](#Identifiers)
-* [Keywords](#Keywords)
-* [Constants](#Constants)
-* [Operators](#Operators)
-* [Separators](#Separators)
-* [White space](#Whitespace)
+* [Identifiers](Identifiers)
+* [Keywords](Keywords)
+* [Constants](Constants)
+* [Operators](Operators)
+* [Separators](Separators)
+* [White space](Whitespace)
 
 ## Identifiers
 Identifiers are sequences of characters that define a unique name for variables,
@@ -73,7 +64,6 @@ struct switch typedef union unsigned void volatile while
 
 ## Constants
 
-
 ## Operators
 
 ## Separators
@@ -82,24 +72,18 @@ struct switch typedef union unsigned void volatile while
 
 # Datatypes
 
----
 
 # Expressions and Operators
 
----
 
 # Statements
 
----
 
 # Subroutines
 
----
 
 # Structure and Scope
 
----
 
 # Overflow
 
----
